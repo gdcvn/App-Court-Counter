@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    final int THREE_POINTS = 3;
+    final int TWO_POINTS = 2;
+    final int ONE_POINT = 1;
     int scoreTeamA = 0;
     int scoreTeamB = 0;
 
@@ -16,32 +19,32 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addThreePointsForTeamA(View view) {
-        scoreTeamA = scoreTeamA + 3;
+        scoreTeamA = scoreTeamA + THREE_POINTS;
         displayForTeamA(scoreTeamA);
     }
 
     public void addTwoPointsForTeamA(View view) {
-        scoreTeamA = scoreTeamA + 2;
+        scoreTeamA = scoreTeamA + TWO_POINTS;
         displayForTeamA(scoreTeamA);
     }
 
     public void addOnePointForTeamA(View view) {
-        scoreTeamA = scoreTeamA + 1;
+        scoreTeamA = scoreTeamA + ONE_POINT;
         displayForTeamA(scoreTeamA);
     }
 
     public void addThreePointsForTeamB(View view) {
-        scoreTeamB = scoreTeamB + 3;
+        scoreTeamB = scoreTeamB + THREE_POINTS;
         displayForTeamB(scoreTeamB);
     }
 
     public void addTwoPointsForTeamB(View view) {
-        scoreTeamB = scoreTeamB + 2;
+        scoreTeamB = scoreTeamB + TWO_POINTS;
         displayForTeamB(scoreTeamB);
     }
 
     public void addOnePointForTeamB(View view) {
-        scoreTeamB = scoreTeamB + 1;
+        scoreTeamB = scoreTeamB + ONE_POINT;
         displayForTeamB(scoreTeamB);
     }
 
